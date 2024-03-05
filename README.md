@@ -17,4 +17,4 @@ Organizzare i singoli membri in card/schede<br>
 Ragioniamo come sempre a step.
 Prima la logica in italiano e poi traduciamo in codice.
 ## Svolgimento
-1.
+1. Creo un array di oggetti attribuendo una costante 
