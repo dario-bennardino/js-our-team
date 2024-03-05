@@ -1,3 +1,6 @@
+const output = document.querySelector(".output")
+const teamInfo = document.querySelector(".team-info")
+
 //Creo array di oggetti del team con nome lavoro foto 
 const members = [
     {
@@ -45,7 +48,47 @@ for(const member of members){
     console.log(member);
   }
 
-  //Stampare nel DOM le info sotto forma di stringhe
+
   
+  //Stampare nel DOM le info sotto forma di stringhe
+  let teamInfoString = '';
+
+  for (const member of members) {
+    teamInfoString += `
+
+        <div>
+            <p>Name: ${member.firstName} ${member.secondName}</p>
+            <p>Job: ${member.job}</p>
+            <p>Photo: ${member.photo}</p>
+        </div>
+        <hr>
+    `;
+  }
+
+  console.log(teamInfoString);
+
+  teamInfo.innerHTML = teamInfoString;
+
+
+
+
+
+
+
+
+
+//   output.innerHTML += `
+  
+//     <div class="col mb-4 ">
+//                 <div class="card" style="width: 18rem;">
+//                     <img src="img/wayne-barnett-founder-ceo.jpg" class="card-img-top" alt="...">
+//                     <div class="card-body text-center">
+//                         <p class="card-text">Name</p>
+//                         <p class="card-text">job</p>
+//                     </div>
+//                 </div>
+//     </div>
+//   `
+
   
 
