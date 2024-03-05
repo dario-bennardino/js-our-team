@@ -1,5 +1,5 @@
 const output = document.querySelector(".output")
-const teamInfo = document.querySelector(".team-info")
+const teamInfo = document.querySelector("#team-info")
 
 //Creo array di oggetti del team con nome lavoro foto 
 const members = [
@@ -49,7 +49,7 @@ for(const member of members){
   }
 
 
-  
+
   //Stampare nel DOM le info sotto forma di stringhe
   let teamInfoString = '';
 
