@@ -44,5 +44,8 @@ const members = [
 for(const member of members){
     console.log(member);
   }
+
+  //Stampare nel DOM le info sotto forma di stringhe
+  
   
 
