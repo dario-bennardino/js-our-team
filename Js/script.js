@@ -41,4 +41,8 @@ const members = [
 //Stampo in console per ogni membro del team tutte le informazioni nome lavoro e foto
 //Con ciclo for of
 
+for(const member of members){
+    console.log(member);
+  }
+  
 

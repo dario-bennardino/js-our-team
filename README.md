@@ -18,3 +18,5 @@ Ragioniamo come sempre a step.
 Prima la logica in italiano e poi traduciamo in codice.
 ## Svolgimento
 1. Creo un array di oggetti attribuendo una costante 
+2. Utilizzo un ciclo for of per stampare in pagina i valori degli oggetti 
+3. 
